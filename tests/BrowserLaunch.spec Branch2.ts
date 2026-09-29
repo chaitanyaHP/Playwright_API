@@ -8,6 +8,7 @@ test('Open saucedemo', async ({ page }) => {
   console.log('Changes in master 1');
    console.log('Changes in master for stash');
   console.log('Changes in master for branch check');
+  console.log('Changes in master for Commit');
 });
 
 
