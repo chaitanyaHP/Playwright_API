@@ -1,0 +1,22 @@
+{
+  "name": "playwright_extension",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "runner": "npx playwright test",
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:debug": "npx playwright test --debug",
+    "test:report": "npx playwright show-report",
+    "test:report:open": "npx playwright show-report --open",
+    "test:report:html": "npx playwright show-report --reporter=html",
+    "test:report:json": "npx playwright show-report --reporter=json"},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.62.0",
+    "@types/node": "^26.1.2"
+  }
+}
