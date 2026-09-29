@@ -5,6 +5,7 @@ test('Open saucedemo', async ({ page }) => {
   console.log('Branch SauceDemo page opened successfully');
   console.log('Branch new changes SauceDemo page title:', await page.title());
   console.log('Branch new changes SauceDemo page URL:', page.url());
+  console.log('Changes in master');
 });
 
 
