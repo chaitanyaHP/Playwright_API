@@ -10,5 +10,7 @@ test('Login to Open saucedemo', { tag: ['@smoke', '@regression'] }, async ({ pag
   await page.getByPlaceholder('Username').fill('standard_user');
   await page.getByPlaceholder('Password').fill('secret_sauce');
   await page.getByRole('button', { name: 'Login' }).click();
-  
+
+
+  console.log('Changes in master for rebase check');
 });
