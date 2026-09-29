@@ -4,6 +4,7 @@ test('Open saucedemo', async ({ page }) => {
   await page.goto('https://www.saucedemo.com/');
   console.log('Branch SauceDemo page opened successfully');
   console.log('Branch new changes SauceDemo page title:', await page.title());
+  console.log('Branch new changes SauceDemo page URL:', page.url());
 });
 
 
